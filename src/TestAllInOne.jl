@@ -1,6 +1,6 @@
-module TemplateAllInOne
+module TestAllInOne
 
-# Public API, accessed as TemplateAllInOne.hello without exporting the name.
+# Public API, accessed as TestAllInOne.hello without exporting the name.
 public hello
 
 # Packages
@@ -15,7 +15,7 @@ Return a friendly greeting.
 # Examples
 
 ```jldoctest
-julia> TemplateAllInOne.hello()
+julia> TestAllInOne.hello()
 "Hello, World!"
 ```
 """

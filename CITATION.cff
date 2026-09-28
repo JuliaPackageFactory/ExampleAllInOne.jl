@@ -1,9 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: "Ohno"
-    given-names: "Shuhei"
-title: "TemplateAllInOne.jl"
+  - family-names: "Shuhei Ohno"
+title: "TestAllInOne.jl"
 version: "0.0.1"
-date-released: "2026-09-27"
-repository-code: "https://github.com/JuliaPackageFactory/TemplateAllInOne.jl"
+date-released: "2026-09-20"
+repository-code: "https://github.com/JuliaPackageFactory/TestAllInOne.jl"

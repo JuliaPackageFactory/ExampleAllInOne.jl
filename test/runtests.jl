@@ -1,4 +1,4 @@
-using TemplateAllInOne
+using TestAllInOne
 using Test
 
 include("aqua.jl")
@@ -8,6 +8,6 @@ include("explicit_imports.jl")
     include("jet.jl")
 end
 
-@testset "TemplateAllInOne.hello" begin
-    @test TemplateAllInOne.hello() == "Hello, World!"
+@testset "TestAllInOne.hello" begin
+    @test TestAllInOne.hello() == "Hello, World!"
 end

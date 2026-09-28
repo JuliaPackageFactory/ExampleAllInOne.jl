@@ -1,5 +1,5 @@
 [deps]
-TemplateAllInOne = "e625b4ae-d6f6-409f-bbf2-54d8e3b9029e"
+TestAllInOne = "e625b4ae-d6f6-409f-bbf2-54d8e3b9029e"
 Bibliography = "f1be7e48-bf82-45af-a471-ae754a193061"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 
