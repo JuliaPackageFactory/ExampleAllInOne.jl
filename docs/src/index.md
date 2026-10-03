@@ -17,9 +17,7 @@ CurrentModule = ExampleAllInOne
 [![Aqua](https://img.shields.io/github/actions/workflow/status/JuliaPackageFactory/ExampleAllInOne.jl/Aqua.yml?branch=main&event=push&label=Aqua&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3OS4zNzUgNTguNjc0Ij48ZyBzdHJva2U9IiNmNWY1ZjUiIHN0cm9rZS13aWR0aD0iNC44ODciPjxjaXJjbGUgZmlsbD0iIzM4OTgyNiIgY3g9IjM5LjY4OCIgY3k9IjIzLjk5MiIgcj0iMjEuNTQ5Ii8%2BPGNpcmNsZSBmaWxsPSIjY2IzYzMzIiBjeD0iMTcuNDQzIiBjeT0iNDEuMjMxIiByPSIxNSIvPjxjaXJjbGUgZmlsbD0iIzk1NThiMiIgY3g9IjYxLjkzMiIgY3k9IjQxLjIzMSIgcj0iMTUiLz48L2c%2BPC9zdmc%2B)](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl/actions/workflows/Aqua.yml?query=branch%3Amain)
 [![JET](https://img.shields.io/github/actions/workflow/status/JuliaPackageFactory/ExampleAllInOne.jl/JET.yml?branch=main&event=push&label=%F0%9F%9B%A9%EF%B8%8F%20JET)](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl/actions/workflows/JET.yml?query=branch%3Amain)
 
-```@raw html
-<p class="pkgfactory-description">Integration tests for the all-in-one template of [PkgFactory](https://github.com/JuliaPackageFactory/PkgFactory.ts).</p>
-```
+Integration tests for the all-in-one template of [PkgFactory](https://github.com/JuliaPackageFactory/PkgFactory.ts).
 
 This package requires Julia 1.12 or later because it uses Pkg workspaces.
 See `[compat]` in [Project.toml](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl/blob/main/Project.toml)
@@ -62,4 +60,4 @@ println(read(joinpath(pkgdir(ExampleAllInOne), "docs", "src", "assets", "citatio
 
 ## Acknowledgments
 
-This package is written in the [Julia programming language](https://julialang.org/), built on an initial project template generated using [PkgFactory.jl](https://github.com/JuliaPackageFactory/PkgFactory.jl). This repository is hosted on [GitHub](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl), and continuous integration is run using [GitHub Actions](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl/actions).
+This package is written in the [Julia programming language](https://julialang.org/), built on an initial project template generated using [PkgFactory.ts](https://github.com/JuliaPackageFactory/PkgFactory.ts). This repository is hosted on [GitHub](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl), and continuous integration is run using [GitHub Actions](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl/actions).
