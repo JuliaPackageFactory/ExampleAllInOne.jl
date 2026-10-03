@@ -1,23 +1,23 @@
 ```@meta
-CurrentModule = TestAllInOne
+CurrentModule = ExampleAllInOne
 ```
 
 # User Guide
 
-Before starting the tutorial, complete the [Quick Start](@ref) section. Feature requests and bug reports are handled through GitHub [Issues](https://github.com/JuliaPackageFactory/TestAllInOne.jl/issues).
+Before starting the tutorial, complete the [Quick Start](@ref) section. Feature requests and bug reports are handled through GitHub [Issues](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl/issues).
 
 ## Tutorial
 
 ```@repl
-import TestAllInOne
-TestAllInOne.hello()
+import ExampleAllInOne
+ExampleAllInOne.hello()
 ```
 
 ## Examples
 
 ```@example
-import TestAllInOne
-text_1 = TestAllInOne.hello()
+import ExampleAllInOne
+text_1 = ExampleAllInOne.hello()
 text_2 = "Goodbye, World!"
 text_1 * " " * text_2
 ```

@@ -2,7 +2,7 @@
 
 ## Package
 
-The package name is `TestAllInOne`. Use Julia 1.12 or later and run commands from
+The package name is `ExampleAllInOne`. Use Julia 1.12 or later and run commands from
 the repository root. The workspace contains the test environment.
 
 ## Commands

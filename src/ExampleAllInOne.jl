@@ -1,6 +1,6 @@
-module TestAllInOne
+module ExampleAllInOne
 
-# Public API, accessed as TestAllInOne.hello without exporting the name.
+# Public API, accessed as ExampleAllInOne.hello without exporting the name.
 public hello
 
 # Packages
@@ -15,7 +15,7 @@ Return a friendly greeting.
 # Examples
 
 ```jldoctest
-julia> TestAllInOne.hello()
+julia> ExampleAllInOne.hello()
 "Hello, World!"
 ```
 """

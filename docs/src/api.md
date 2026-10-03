@@ -1,10 +1,10 @@
 ```@meta
-CurrentModule = TestAllInOne
+CurrentModule = ExampleAllInOne
 ```
 
 # API Reference
 
-The API reference below is generated from docstrings in the [source code](https://github.com/JuliaPackageFactory/TestAllInOne.jl/tree/main/src).
+The API reference below is generated from docstrings in the [source code](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl/tree/main/src).
 
 ## Index
 
@@ -14,6 +14,6 @@ The API reference below is generated from docstrings in the [source code](https:
 ## Docstrings
 
 ```@autodocs
-Modules = [TestAllInOne]
+Modules = [ExampleAllInOne]
 ```
 

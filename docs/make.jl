@@ -1,4 +1,4 @@
-using TestAllInOne
+using ExampleAllInOne
 using Documenter
 
 include("citation.jl")
@@ -6,16 +6,16 @@ citation_path = joinpath(@__DIR__, "src", "assets", "citation.bib")
 mkpath(dirname(citation_path))
 write(citation_path, citation_bibtex(joinpath(@__DIR__, "..", "CITATION.cff")))
 
-DocMeta.setdocmeta!(TestAllInOne, :DocTestSetup, :(using TestAllInOne); recursive = true)
+DocMeta.setdocmeta!(ExampleAllInOne, :DocTestSetup, :(using ExampleAllInOne); recursive = true)
 
 makedocs(;
     checkdocs = :public,
-    modules = [TestAllInOne],
+    modules = [ExampleAllInOne],
     authors = "Shuhei Ohno",
-    sitename = "TestAllInOne.jl",
+    sitename = "ExampleAllInOne.jl",
     format = Documenter.HTML(;
         prettyurls = get(ENV, "CI", "false") == "true",
-        canonical = "https://JuliaPackageFactory.github.io/TestAllInOne.jl",
+        canonical = "https://JuliaPackageFactory.github.io/ExampleAllInOne.jl",
         edit_link = "main",
         assets = ["assets/custom.css"],
     ),
@@ -28,6 +28,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo = "github.com/JuliaPackageFactory/TestAllInOne.jl",
+    repo = "github.com/JuliaPackageFactory/ExampleAllInOne.jl",
     devbranch = "main",
 )
