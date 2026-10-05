@@ -17,17 +17,11 @@ Integration tests for the all-in-one template of [PkgFactory](https://github.com
 
 ## Quick Start
 
-Run the following command in the Julia REPL or a notebook:
+Requires [Julia](https://julialang.org/install/) 1.12 or later. Paste the following into the Julia REPL or a notebook cell:
 
 ```julia
 import Pkg; Pkg.add(url="https://github.com/JuliaPackageFactory/ExampleAllInOne.jl.git")
-```
-
-After installation, load the package and verify it works:
-
-```julia
-julia> import ExampleAllInOne; ExampleAllInOne.hello()
-"Hello, World!"
+import ExampleAllInOne; ExampleAllInOne.hello()  # returns "Hello, World!"
 ```
 
 ## Documentation
