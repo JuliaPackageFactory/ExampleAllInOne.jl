@@ -60,4 +60,4 @@ println(read(joinpath(pkgdir(ExampleAllInOne), "docs", "src", "assets", "citatio
 
 ## Acknowledgments
 
-This package is written in the [Julia programming language](https://julialang.org/), built on an initial project template generated using [PkgFactory.ts](https://github.com/JuliaPackageFactory/PkgFactory.ts). This repository is hosted on [GitHub](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl), and continuous integration is run using [GitHub Actions](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl/actions).
+This package is written in the [Julia programming language](https://julialang.org/), built on an initial project template generated using [Julia Package Factory](https://github.com/JuliaPackageFactory). This repository is hosted on [GitHub](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl), and continuous integration is run using [GitHub Actions](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl/actions).
